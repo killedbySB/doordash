@@ -1,0 +1,936 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLING */
+header{
+    background-color: #ffffff;
+    height: 120px;
+    width: 2100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none; /* Hidden initially */
+    transition: top 0.3s ease-in-out;
+}
+header img{
+    height: 65px;
+    width: 65px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    
+}
+header h1{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12rem;
+    margin-top: -3.6rem;
+    color: red;
+}
+header nav{
+    margin-left: 107.4rem;
+    margin-top: -4.7rem;
+}
+header nav a{
+    text-decoration: none;
+    
+}
+header nav .button1{
+    padding: 0.8rem;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 38px;
+    cursor: pointer;
+    color: white;
+}
+header nav .button1:hover{
+    background-color: rgba(223, 51, 51, 0.932);
+}
+header nav .button2:hover{
+    background-color: #dbdbdb;
+}
+header nav .button2{
+    padding: 0.8rem;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+    color: black;
+}
+.button1 a{
+    color: white;
+    font-size: 2em;
+}
+.button2 a{
+    color: black;
+    font-size: 2em;
+}
+
+
+
+
+
+/* SECTION 5 STYLING */
+.section5-container{
+    height: 1000px;
+    background-image: url('doodashbackground.png');
+    background-size: cover;
+    
+}
+.doordash-header{
+    display: flex;
+    
+}
+.doordash-header h1{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 55rem;
+    margin-top: -5rem;
+    
+}
+.doordash-header img{
+   margin-left: 45rem;
+   text-align: center;
+   width: 110px;
+   height: 110px;
+   top: 0.9rem;
+   left: 2.6rem;
+   position: relative;
+}
+/* .doordashlogo h1{
+    
+} */
+
+.buttons{
+    margin-left: 107rem;
+    margin-top: -6.4rem;
+    
+}
+.btn1{
+    padding: 0.8rem;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 38px;
+    cursor: pointer;
+    
+}
+.btn1 a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgba(223, 51, 51, 0.932);
+}
+.btn2{
+    padding: 0.8rem;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #1e1e1e;
+}
+.btn2:hover{
+    background-color: #dbdbdb;
+}
+.doordash-info h1{
+    font-size: 3.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 21rem;
+    margin-left: 9rem;
+    color: white;
+}
+.doordash-info input{
+    width: 25%;
+    padding: 1.8rem;
+    margin-left: 46rem;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+    padding-left: 6rem;
+    font-size: 1.3rem;
+}
+
+.doordash-info ::placeholder{
+    font-size: 1.2em;
+}
+.location i{
+    font-size: 2.4em;
+    margin-top: -3.75rem;
+    margin-left: 48rem;
+    position: absolute;
+      
+}
+.arrow{
+    margin-left: 81rem;
+    margin-top: -4.43rem;
+    cursor: pointer;
+}
+.arrow i{
+    font-size: 2.5em;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.sign-in button{
+    padding: 0.6rem;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: 57rem;
+    margin-top: 2.3rem;
+    display: flex;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.sign-in button a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1rem;
+    
+}
+.sign-in button i{
+    color: black;
+    font-size: 2em;
+    gap: 20px;
+    
+}
+
+/* SECTION 6 STYLING */
+.section6-container{
+    height: 800px;
+}
+.items{
+    display: flex;
+    gap: 14rem;
+    margin-top: 18rem;
+    margin-left: 20rem;
+}
+
+
+.item-one img{
+    height: 250px;
+    width: 250px;
+    margin-left: 1.6rem;
+}
+.item-one h1{
+    font-size: 2.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-one p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-one a{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin-left: 4.8rem;
+}
+.item-one i{
+    font-size: 1.4em;
+    position: absolute;
+    
+}
+
+
+
+.item-two img{
+    height: 250px;
+    width: 250px;
+    margin-left: 1.6rem;
+}
+.item-two h1{
+    font-size: 2.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.item-two p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-two a{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin-left: 3rem;
+}
+.item-two i{
+    font-size: 1.4em;
+    position: absolute;
+    
+}
+
+.item-three img{
+    height: 250px;
+    width: 250px;
+    margin-left: 1.6rem;
+}
+.item-three h1{
+    font-size: 2.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-three p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-three a{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin-left: 5.7rem;
+}
+.item-three i{
+    font-size: 1.4em;
+    position: absolute; 
+}
+
+/* SECTION 7 STYLING */
+.section7-container{
+    height: 1000px;
+    display: flex;
+}
+.restaurant{
+    margin-top: 18rem;
+    margin-left: 8rem;
+}
+.restaurant h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restaurant h2{
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restaurant p{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restaurant button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.restaurant button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+.picnic-image img{
+    margin-left: 14rem;
+    margin-top: 15rem;
+    width: 980px;
+    height: 820px;
+}
+
+/* SECTION 8 STYLING */
+.section8-container{
+    display: flex;
+    height: 1000px;
+    background-color: lightpink;
+}
+.snacks-image img{
+    width: 1000px;
+    height: 740px;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    
+}
+.packages{
+    margin-left: 7rem;
+    margin-top: 18rem;
+}
+.packages h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.packages p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.packages button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.packages button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+/* SECTION 9 STYLING */
+.section9-container{
+    background-image: url('fruitsbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* background-color: rgba(30, 30, 30, 0.6); */
+     height: 900px; 
+    
+}
+.groceries{
+    align-items: center;
+    text-align: center;
+    top: 42rem;
+}
+.groceries h1{
+    font-size: 3.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 48rem;
+}
+.groceries h2{
+    font-size: 1.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 6rem;
+    margin-top: 27rem;
+    margin-left: 45rem;
+}
+.groceries p{
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 35rem; 
+}
+.groceries button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 37rem;
+    margin-left: -6.4rem; 
+    text-align: center;
+    font-weight: bold;
+}
+.groceries button:hover{
+    background-color: rgba(230, 12, 12, 0.877);
+}
+
+/* SECTION 10 STYLING */
+.section10-container{
+    display: flex;
+    height: 960px;
+    
+}
+.vitamins{
+    margin-top: 16rem;
+    margin-left: 10rem;
+}
+.vitamins h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vitamins p{
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vitamins button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.vitamins button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+.vitamins-image img{
+    margin-top: 10rem;
+    margin-left: 8rem;
+    width: 940px;
+    height: 840px;
+    position: absolute;
+    
+}
+
+
+/* SECTION 11 STYLING */
+.section11-container{
+    height: 2800px;
+    background-color: lightpink;
+    margin-top: -5rem;
+    
+}
+
+.todos h1{
+    font-size: 3.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10rem;
+    
+} 
+
+.holder1{
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 16rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+.package{
+    margin-left: -9rem;
+    margin-top: -7.1rem;
+}
+.package img{
+    width: 800px;
+    height: 720px;
+}
+.package h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.package p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.package button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.package button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+
+.flowers{
+    margin-top: -14rem;
+    margin-left: 12rem;
+}
+.flowers img{
+    width: 820px;
+    
+}
+.flowers h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flowers p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flowers button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.flowers button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+
+.holder2{
+    display: flex;
+    gap: 11rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-left: 12rem;
+}
+
+
+.restock{
+    margin-left: -5rem;
+}
+.restock img{
+    width: 820px;
+}
+.restock h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restock p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restock button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.restock button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+.restock h2{
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.pets{
+    margin-top: 0.5rem;
+}
+.pets img{
+    width: 820px;
+}
+.pets h1{
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pets p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pets button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.pets button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+
+
+
+/* SECTION 1 STYLING */
+.section1-container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0;
+    margin-right: 49rem;
+
+}
+ .heading h1{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 2.6em;
+      text-align: center;
+      margin-left: 28rem;
+}
+.signup-container{
+    margin-top: 26rem;
+    margin-left: -66rem;
+}
+.signup-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.8em;
+}
+.signup-container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+}
+.signup-container button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.signup-container button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+.image1{
+    margin-top: 16rem;
+    margin-left: 6rem;
+}
+.image1 img{
+    width: 900px;
+    height: 700px;
+    position: absolute;
+}
+
+/* SECTIN 2 STYLING */
+.section2-container{
+    background-color: lightpink;
+    height: 1000px;
+}
+.partnership{
+    margin-left: 75rem;
+    margin-top: -40rem;
+}
+.partnership h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.8em;
+}
+.partnership p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+}
+.partnership button{
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.partnership button:hover{
+    background-color: rgba(230, 12, 12, 0.788);
+}
+.image2 img{
+    margin-top: 11rem;
+    margin-left: 11rem;
+    width: 900px;
+    height: 700px;
+}
+
+/* SECTION 3 */
+.section3-container{
+    height: 600px;
+}
+.section3-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.8em;
+    margin-left: 38rem;
+    margin-top: 6rem;
+}
+
+/* SECTION 4 */
+.section4-container{
+    background-color: black;
+    color: white;
+    height: 1500px;
+}
+.section4-heading .store1{
+    margin-top: 5rem;
+}
+.store1{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 9.6rem;
+    
+}
+.store1 h1{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4rem;
+    
+}
+.store1 a{
+    text-decoration: none;
+    color: white;
+}
+.store1 p{
+    cursor: pointer;
+}
+.store1 p:hover{
+    text-decoration: underline;
+    
+}
+.store2{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 39rem;
+    margin-top: -16.4rem;
+
+}
+.store2 a{
+    text-decoration: none;
+    color: white;
+}
+.store2 p{
+    cursor: pointer;
+}
+.store2 p:hover{
+    text-decoration: underline;
+}
+.store3{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 66rem;
+    margin-top: -17rem;
+}
+.store3 a{
+    text-decoration: none;
+    color: white;
+}
+.store3 p{
+    cursor: pointer;
+}
+.store3 p:hover{
+    text-decoration: underline;
+}
+.store4{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 88rem;
+    margin-top: -17.3rem;
+}
+.store4 a{
+    text-decoration: none;
+    color: white;
+}
+.store4{
+    cursor: pointer;
+}
+.store4 p:hover{
+    text-decoration: underline;
+}
+.store5{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 9.6rem;
+}
+.store5 h1{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4rem;
+    margin-top: 14rem;
+}
+.store5 p{
+    cursor: pointer;
+}
+.store5 p:hover{
+    text-decoration: underline;
+}
+.store5 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.store6 h1{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4rem;
+}
+.store6 a{
+    text-decoration: none;
+    color: white;
+}
+.store6 p{
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.store6 p:hover{
+    text-decoration: underline;
+}
+.store6{
+    margin-left: 32rem;
+    margin-top: -45.2rem;
+}
+
+.store7 h1{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4rem;
+}
+.store7 a{
+    text-decoration: none;
+    color: white;
+}
+.store7 p{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.store7 p:hover{
+    text-decoration: underline;
+}
+.store7{
+    margin-left: 53rem;
+    margin-top: -14.6rem;
+}
+
+.footer-container{
+    margin-top: 32rem;
+    margin-left: 10rem;
+}
+.footer-info{
+    display: flex;
+    gap: 25px;
+    
+}
+.footer-info img{
+    width: 100px ;
+    height: 100px;
+    margin-top: -1rem;
+}
+.footer-info a{
+    text-decoration: none;
+    color: white;
+}
+.footer-info p{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-socials{
+    margin-left: 91rem;
+    margin-top: -4.4rem;
+}
+.footer-socials a{
+    color: white;
+    font-size: 2.2em;
+    
+}

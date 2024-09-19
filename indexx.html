@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoorDash</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- SECTION 1 -->
+    <section class="section1-container">
+        <div class="heading">
+            <h1>Unlocking Oppurtunity for <br>Dashers and Businessess</h1>
+        </div>
+        <div class="signup-container">
+            <h2>Sign up to dash<br> and get paid</h2>
+            <p>Deliver with the #1 Food and Drink App in the U.S. As a<br> delivery driver, you'll make money and work on your<br> schedule. Sign up in minutes.</p>
+           
+            <button class="">Become a Dasher</button>
+        </div>
+        <div class="image1">
+            <img src="manwithabag.png" alt="manwithabag">
+        </div>
+        
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section2-container">
+        <div class="image2">
+            <img src="cashier.png"  alt="">
+        </div>
+        <div class="partnership">
+            <h2>Grow your<br> business with<br> DoorDash</h2>
+            <p>Businesses large and small partner with DoorDash to <br>reach new customers, increase order volume, and drive <br>more sales.</p>
+            <button class="">Become a Partner</button>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section3-container">
+        <h1>Get more from your neighborhood</h1>
+
+        <!-- <div class="goodsNservices">
+             <a href="#">Top Cities</a>
+            <a href="#">Top Cuisines</a>
+            <a href="#">Top Chains</a>
+
+        </div>
+        <div class="city" id="city">
+            <div class="one">
+                <p>New York</p>
+                <p>Brooklyn</p>
+                <p>Atlanta</p> 
+            </div>
+
+            <div class="two">
+                <p>Los Angeles</p>
+                <p>San Diego</p>
+                <p>Queens</p>
+            </div>
+            
+            <div class="three">
+                <p>Toronto</p>
+                <p>Las Vegas</p>
+                <p>Vancouver,BC</p>
+            </div>
+            
+            <div class="four">
+                <p>Chicago</p>
+                <p>San Francisco</p>
+                <p>Miami</p>
+            </div>
+           
+            <div class="five">
+                <p>Houston</p>
+                <p>Seattle</p>
+                <p>San Antonio</p>
+            </div>
+            
+        </div> -->
+        
+        <style>
+            /* Container for the sliding content */
+            .goodsNservices {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 20px;
+                cursor: pointer;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.3em;
+                border-bottom: 1px solid grey;
+                width: 75%;
+                margin-left: 12rem;
+            }
+    
+            /* Hide overflow and set up the slider */
+            .slider-container {
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+            }
+    
+            .slider {
+                display: flex;
+                transition: transform 0.5s ease;
+                width: 300%; /* 3 sections */
+            }
+    
+            .slider-section {
+                width: 100%;
+                flex-shrink: 0;
+                padding: 20px;
+                box-sizing: border-box;
+                display: none; /* Initially hide sections */
+            }
+    
+            /* Display the first section by default */
+            .slider-section.active {
+                display: flex;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 20rem;
+                width: 100%;
+                font-size: 1.5em;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+    
+            /* Example styling for the sections */
+            .city, .cuisine, .chain {
+                background-color: #ffffff;
+                padding: 2rem;
+                cursor: pointer;
+            }
+            .city p{
+                transition: background-color 0.3s ease, padding 0.3s ease;
+                background-color: transparent;
+                text-align: center;
+            }
+            .city p:hover{
+                background-color: rgb(238, 236, 236);
+                padding: 2rem;
+                color: black;
+                padding: 0.8rem;
+                
+            }
+            .cuisine p{
+                transition: background-color 0.3s ease, padding 0.3s ease;
+                background-color: transparent;
+                text-align: center;
+            }
+            .cuisine p:hover{
+                background-color: rgb(238, 236, 236);
+                padding: 2rem;
+                color: black;
+                padding: 0.8rem;
+                
+            }
+            .chain p{
+                transition: background-color 0.3s ease, padding 0.3s ease;
+                background-color: transparent;
+                text-align: center;
+            }
+            .chain p:hover{
+                background-color: rgb(238, 236, 236);
+                padding: 2rem;
+                color: black;
+                padding: 0.8rem;
+            }
+            .city div, .cuisine div, .chain div {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            /* Link styling */
+            .goodsNservices a {
+                padding: 2rem;
+                /* background-color: lightgrey;
+                border: 1px solid grey; */
+                text-decoration: none;
+                color: black;
+                transition: background-color 0.3s ease;
+                
+            }
+    
+            .goodsNservices a:hover {
+                background-color: rgb(218, 216, 216);
+                color: black;
+            }
+        </style>
+
+        <div class="goodsNservices">
+            <a href="#" onclick="slideTo(event, 0)">Top Cities</a>
+            <a href="#" onclick="slideTo(event, 1)">Top Cuisines</a>
+            <a href="#" onclick="slideTo(event, 2)">Top Chains</a>
+        </div>
+    
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <!-- Top Cities Section -->
+                <div class="slider-section city active">
+                    <div class="one">
+                        <p>New York</p>
+                        <p>Brooklyn</p>
+                        <p>Atlanta</p>
+                    </div>
+    
+                    <div class="two">
+                        <p>Los Angeles</p>
+                        <p>San Diego</p>
+                        <p>Queens</p>
+                    </div>
+    
+                    <div class="three">
+                        <p>Toronto</p>
+                        <p>Las Vegas</p>
+                        <p>Vancouver, BC</p>
+                    </div>
+    
+                    <div class="four">
+                        <p>Chicago</p>
+                        <p>San Francisco</p>
+                        <p>Miami</p>
+                    </div>
+    
+                    <div class="five">
+                        <p>Houston</p>
+                        <p>Seattle</p>
+                        <p>San Antonio</p>
+                    </div>
+                </div>
+    
+                <!-- Top Cuisines Section -->
+                <div class="slider-section cuisine">
+                    <div class="one">
+                        <p>Pizza</p>
+                        <p>Lunch</p>
+                        <p>Asian Food</p>
+                    </div>
+    
+                    <div class="two">
+                        <p>Chinese Food</p>
+                        <p>Seafood</p>
+                        <p>Italian Food</p>
+                    </div>
+    
+                    <div class="three">
+                        <p>Sushi</p>
+                        <p>Indian Food</p>
+                        <p>Vegan Food</p>
+                    </div>
+
+                    <div class="four">
+                        <p>Cafe</p>
+                        <p>Dessert</p>
+                        <p>Sandwiches</p>
+                    </div>
+
+                    <div class="five">
+                        <p>Thai Food</p>
+                        <p>Burgers</p>
+                        <p>Restaurants</p>
+                    </div>
+                </div>
+    
+                <!-- Top Chains Section -->
+                <div class="slider-section chain">
+                    <div class="one">
+                        <p>Chipotle Mexican Grill</p>
+                        <p>Burger Kings</p>
+                        <p>McDonald's</p>
+                    </div>
+    
+                    <div class="two">
+                        <p>Wendy's</p>
+                        <p>Dollar General</p>
+                        <p>Subway</p>
+                    </div>
+    
+                    <div class="three">
+                        <p>Starbucks</p>
+                        <p>Wingstop</p>
+                        <p>Panda Express</p>
+                    </div>
+
+                    <div class="four">
+                        <p>Popeyes Louisana Kitchen</p>
+                        <p>Dunkin'</p>
+                        <p>Taco Bell</p>
+                    </div>
+
+                    <div class="five">
+                        <p>Chick-fil-A</p>
+                        <p>Dashmart</p>
+                        <p>7-eleven</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            function slideTo(event, index) {
+                event.preventDefault(); // Prevent the default anchor link behavior
+    
+                // Get all sections
+                const sections = document.querySelectorAll('.slider-section');
+                // Hide all sections
+                sections.forEach(section => section.classList.remove('active'));
+                // Show the clicked section
+                sections[index].classList.add('active');
+            }
+        </script>
+    
+    </section>
+</body>
+</html>

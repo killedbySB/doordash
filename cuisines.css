@@ -1,0 +1,32 @@
+.city p{
+    /* position: absolute; */
+    margin-top: 4rem;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.city .one{
+    margin-right: 81rem;
+    text-align: center;
+}
+.city .two{
+   margin-right: 42rem;
+   margin-top: -18rem;
+   text-align: center;
+}
+.city .three{
+   margin-right: -2rem;
+   margin-top: -18rem;
+   text-align: center;
+}
+.city .four{
+   margin-right: -44rem;
+   margin-top: -18rem;
+   text-align: center;
+}
+.city .five{
+   margin-right: -81rem;
+   margin-top: -18rem;
+   text-align: center;
+}
